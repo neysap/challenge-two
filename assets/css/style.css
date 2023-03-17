@@ -65,7 +65,7 @@ body {
 
 
 .h2 {
-    position: absolute;
+    position:absolute;
     bottom: 360px;
     right:75px;
     background: rgba(231, 224, 185, 0.986);
@@ -79,33 +79,20 @@ body {
 #body-container {
     display: flex;
     flex-direction: column;
-
-
-
-
+    margin-right: 30px;
 
 }
 .sub-flex {
-    display:flex
+    display: flex;
+
     
 
 }
 
-.text1 {
 
-    font-family: 'Economica', sans-serif;
-    font-size: 50px;
-    color:rgba(129, 104, 121, 0.979);
-    margin-left: 50px;
-    font-family: 'Economica', sans-serif;
-    font-size: 50px;
-    line-height: 50px;
-    color:rgba(129, 104, 121, 0.979);
-
-}
 
 .work-content {
-    float:right;
+    justify-content: flex-start;
     font-family: 'Economica', sans-serif;
     font-size: 20px;
     color:rgba(129, 104, 121, 0.979);
@@ -119,9 +106,9 @@ body {
 
 .header-text {
     /* float:left; */
-    
-    width: 500px;
+    /* width: 6px; */
     margin-left: 50px;
+    margin-right: 60px;
     font-family: 'Economica', sans-serif;
     font-size: 50px;
     line-height: 50px;
@@ -133,12 +120,24 @@ body {
 
 .img1 {
     
-    margin-left: 40px;
-    margin-top: 10px;
+    width:100%
+    
     
          
 }   
 
+/* .text1 {
+
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    color:rgba(129, 104, 121, 0.979);
+    margin-left: 50px;
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    color:rgba(129, 104, 121, 0.979);
+
+} */
 
 
 
