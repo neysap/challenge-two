@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Economica', sans-serif;
+    list-style-type: none;
+    box-sizing: border-box;
+    }
+
+body {
+    background: rgba(231, 224, 185, 0.986);
+    
+}
+
+.navbar {
+    background:rgba(129, 104, 121, 0.979);
+    height: 80px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    position: relative;
+    z-index: 2;         
+}
+
+
+.title {
+    padding : 2px;
+    padding-left: 25px;
+    border: 3px;
+    border-left: 25px;
+    justify-content: left;
+    background: rgba(231, 224, 185, 0.986);
+    border-style: solid;
+    border-color: rgba(231, 224, 185, 0.986);
+    font-family: 'Economica', sans-serif;
+    font-size: 45px;
+    line-height: 80px;
+    color:rgba(129, 104, 121, 0.979);
+           
+}
+
+
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+     
+}
+
+.navbar ul li {
+    display: inline-block;
+    font-family: 'Economica', sans-serif;
+    line-height: 80px;
+    margin: 0 5px;
+    
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    color: rgba(231, 224, 185, 0.986);  
+
+}
+
+.navbar ul li a:hover {
+    color: rgb(52, 182, 182);
+}
+
+
+.h2 {
+    position: absolute;
+    bottom: 360px;
+    right:75px;
+    background: rgba(231, 224, 185, 0.986);
+    background-size: cover;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    color:rgba(129, 104, 121, 0.979);
+}
+
+#body-container {
+    display: flex;
+    flex-direction: column;
+
+
+
+
+
+}
+.sub-flex {
+    display:flex
+    
+
+}
+
+.text1 {
+
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    color:rgba(129, 104, 121, 0.979);
+    margin-left: 50px;
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    color:rgba(129, 104, 121, 0.979);
+
+}
+
+.work-content {
+    float:right;
+    font-family: 'Economica', sans-serif;
+    font-size: 20px;
+    color:rgba(129, 104, 121, 0.979);
+    
+   
+}
+
+   
+
+
+
+.header-text {
+    /* float:left; */
+    
+    width: 500px;
+    margin-left: 50px;
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    color:rgba(129, 104, 121, 0.979);
+
+
+}
+
+
+.img1 {
+    
+    margin-left: 40px;
+    margin-top: 10px;
+    
+         
+}   
+
+
+
+
+
+
+
+
+    
