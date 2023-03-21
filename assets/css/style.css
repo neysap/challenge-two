@@ -10,7 +10,9 @@
 
 body {
     background: rgba(231, 224, 185, 0.986);
-    
+    line-height: 1.5;
+    font-size: 20px;
+    color: rgba(129, 104, 121, 0.979);
 }
 
 .navbar {
@@ -84,7 +86,7 @@ body {
 }
 .sub-flex {
     display: flex;
-
+    
     
 
 }
@@ -92,7 +94,10 @@ body {
 
 
 .work-content {
-    justify-content: flex-start;
+    /* justify-content:space-around;
+    flex-direction: column; */
+    display: block;
+    align-items: center;
     font-family: 'Economica', sans-serif;
     font-size: 20px;
     color:rgba(129, 104, 121, 0.979);
@@ -105,39 +110,111 @@ body {
 
 
 .header-text {
-    /* float:left; */
     /* width: 6px; */
-    margin-left: 50px;
+    /* display: flex; */
+    text-align: left;
+    white-space: nowrap;
+    margin-left: 40px;
     margin-right: 60px;
     font-family: 'Economica', sans-serif;
     font-size: 50px;
-    line-height: 50px;
+    /* line-height: 20px; */
     color:rgba(129, 104, 121, 0.979);
 
 
 }
 
+.image-container {
+position: relative;
+display: inline-block;
+/* align-items: center; */
+
+}
+
+.work-content .image-container {
+    margin-left: 60px;
+}
+
+
+.text-overlay {
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(129, 104, 121, 0.979);
+    background-color: rgba(231, 224, 185, 0.986);
+    border: 5px solid rgba(129, 104, 121, 0.979);  
+    font-size: 22px;
+    text-align: left;
+}
+
 
 .img1 {
-    
-    width:100%
-    
-    
-         
-}   
+    position: relative;
+    width:770px;
+    height: 360px; 
+    margin-bottom: 20px;
+    border: 5px solid rgba(129, 104, 121, 0.979);  
+        
+} 
 
-/* .text1 {
 
-    font-family: 'Economica', sans-serif;
-    font-size: 50px;
-    color:rgba(129, 104, 121, 0.979);
-    margin-left: 50px;
-    font-family: 'Economica', sans-serif;
-    font-size: 50px;
-    line-height: 50px;
-    color:rgba(129, 104, 121, 0.979);
 
-} */
+.img3 {
+    position: relative;
+    width:350px;
+    height: 150px;
+    border: 5px solid rgba(129, 104, 121, 0.979); 
+    
+}
+
+
+
+.img2 {
+    position: relative;
+    width:350px;
+    height: 150px;  
+    border: 5px solid rgba(129, 104, 121, 0.979); 
+}
+
+
+
+.contact-text {
+position: relative;
+display: inline-block;
+text-align: center;
+margin-top: 20px;
+font-size: 26px;
+text-indent: 20px;
+text-decoration: underline;
+color:rgba(129, 104, 121, 0.979);
+
+
+
+}
+
+@media (max-width:1200px) {
+    body {
+    display: inline-block;
+     font-size: 14px;
+     line-height: 1.2;
+    }
+    
+}
+
+@media (min-width:768px) {
+    body {
+    display: inline-block;
+     font-size: 18px;
+     line-height: 1.8;
+    }
+    
+}
+
+
+
+
 
 
 
